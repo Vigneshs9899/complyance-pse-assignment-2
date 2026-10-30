@@ -8,7 +8,7 @@ A standalone, synthetic import-processing application for PSE Assignment 2. Each
 - Node.js **22 or newer** for the Vitest runner. Install from the [official Node.js downloads](https://nodejs.org/en/download). The application itself runs in Bun.
 - A terminal and an HTTP client such as curl, Postman, or Insomnia. No Docker or external database is needed.
 
-The recorded validation used **Bun 1.4.0 on macOS ARM64**. Windows and Linux execution have **not** been verified; the shell examples below are setup guidance, not a platform-validation claim.
+The starter's original validation used Bun 1.4.0 on macOS ARM64. This assignment was additionally tested on Windows PowerShell using Bun 1.4.4 and Node.js v24.16.0. Linux execution has not been verified.
 
 Run commands from this `starter` directory, not the parent monorepo. The `bun` and `node` commands work in Bash/zsh and Windows PowerShell; use the shell-specific blocks where shown. On Windows, use `curl.exe`, not PowerShell's `curl` alias.
 
